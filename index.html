@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        alert("Are you Sure to Visit This Page");
+    </script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="my_logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>SW/HW Designer</p>
+                <h1>Hi, I'm <span>Viraj</span><br>Verma From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="myph1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p> Everyone wants someone good in their life that is reliable, punctual, confident, and loyal. Having these traits makes you more than just a potentially great employee, it gives an employer confidence that you are a good person and therefore trustworthy.</p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')" id="afline">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')" id="afline">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')" id="afline">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS App</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021- Current</span><br>Bank Manager</li>
+                            <li><span>2017-2019</span><br>Data Analysis</li>
+                            <li><span>2016-2017</span><br>Vipro work as a Employee</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>B.Tech (CS)</li>
+                            <li><span>2021</span><br>Course on (CS)</li>
+                            <li><span>2022</span><br>Inter with 75%</li>
+                            <li><span>2020</span><br>Highschool with 72%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services-------------- -->
+     <div id="services">
+         <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dolorum doloremque ea architecto corrupti a.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dolorum doloremque ea architecto corrupti a.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dolorum doloremque ea architecto corrupti a.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+         </div>
+     </div>
+      <!-- ----------------portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layout">
+                        <h3>
+                            Social Media App
+                        </h3>
+                        <p>It Is relaible for your devices that contains low space and executes many opration allow people to access information in real time, to connect with others, and to find niche communities. At its best, it makes the world more interconnected.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layout">
+                        <h3>
+                            Music Streaming  App
+                        </h3> 
+                        <p>Music Streaming Service Apps store music on various servers. Apps-like Spotify, Apple Music, Amazon, Tidal, YouTube Music stream a random track on your mobile phone, find it on one of the millions of servers and sends it to your device.</p>
+                        <a href="#"><i class="fa-solid fa-music"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layout">
+                        <h3>
+                            Online Shopping App
+                        </h3>
+                        <p>India's biggest online store for Mobiles, Fashion (Clothes/Shoes), Electronics, Home Appliances, Books, Home, Furniture, Grocery, These websites or apps are designed to enable customers to browse through a companies' it is very usefully.</p>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------- contact------------ -->
+    <div id="contact">
+       <div class="container">
+           <div class="row">
+               <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-paper-plane"></i>Virajverma137@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>7007558645</p>
+                   <div class="social-icons">
+                       <a href=""><i class="fa-brands fa-facebook"></i></a>
+                       <a href=""><i class="fa-brands fa-twitter"></i></a>
+                       <a href=""><i class="fa-brands fa-instagram"></i></a>
+                       <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                   </div>
+                   <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+               </div>
+               <div class="contact-right">
+                   <form>
+                       <input type="text" name="Name" placeholder="Enter Your Name " required>
+                       <input type="email" name="email" placeholder="Enter Your Email " required>
+                        <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                   </form>
+               </div>
+            </div>
+       </div>
+    </div>  
+       <div class="copyright">
+        <p> <i class="fa-solid fa-handshake"></i> THANK YOU <i class="fa-solid fa-handshake"></i></p>
+    </div>
+
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-180px";
+        }
+
+    </script>
+</body>
+
+</html>
